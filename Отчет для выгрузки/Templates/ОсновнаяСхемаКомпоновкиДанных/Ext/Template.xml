@@ -11,14 +11,15 @@
 			<field>Ссылка</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
-		<query>                            ВЫБРАТЬ
-	_ДемоЗаказПокупателя.Ссылка КАК Ссылка
+		<query>ВЫБРАТЬ
+	_ДемоЗаказПокупателя.Ссылка КАК Ссылка,
+	*
 ИЗ
 	Документ._ДемоЗаказПокупателя КАК _ДемоЗаказПокупателя</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:presentation xsi:type="xs:string">Основной отчет</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
